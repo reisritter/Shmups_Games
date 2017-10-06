@@ -1,0 +1,159 @@
+@font-face{
+
+	font-family:"fonte1";
+	src:url("fonts/OpenSans-Regular.ttf");
+
+	font-family:"Raleway";
+	src:url("fonts/Raleway-Regular.ttf");
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+
+	background-color:#f7f7f7;
+}
+
+#barra-menu{
+
+	z-index:3;
+	background-color:#f1f1f1;
+	width:100%;
+	height:60px;
+	top:0;
+	left:0;
+	position:fixed;
+	border-bottom:1px solid rgba(0,0,0,.2);
+}
+
+#conteudo-menu{
+
+	width:900px;
+	height:60px;
+	margin:0px auto 0px auto;	
+}
+
+a.a-menu{
+	text-decoration:none;
+	color:black;	
+	border-bottom:1px solid rgba(0,0,0,0);
+	transition:border-bottom .5s;
+}
+
+a.a-menu:hover{
+	border-bottom:1px solid rgba(0,0,0,1);
+}
+
+ul{
+
+	list-style:none;
+	margin-left:350px;
+	margin-top:-61px;
+
+}
+
+.li-menu,#home{
+
+	float:left;
+	font-size:18px;	
+	font-family:"Raleway", sans-serif;
+	padding:19px 20px 20px 20px;
+	border-right: 1px solid rgba(0,0,0,.2);
+	transition: background-color .5s;
+
+}
+
+#home{border-left:1px solid rgba(0,0,0,.2);}
+img#logo{margin:5px 0px 0px 45px;}
+
+li.li-menu:hover,#home:hover{
+
+	background-color:#ccc;
+}
+
+#tudo{
+
+	
+	width:1000px;
+	height:100%;
+	margin:0px auto 0px auto;
+}
+
+#conteudo{
+	
+	width:900px;
+	height:100%;
+	margin-left:50px;
+	position: absolute;
+
+}
+
+.titulo{
+
+	border-bottom:1px solid rgba(0,0,0,.2);
+	width:100%px;
+	padding: 130px 50px 20px;
+}
+
+h1{
+
+	font-family:"fonte1", sans-serif;
+	font-size:3.2rem;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom:30px;
+}
+
+#games{
+	padding:50px 0px 0px 50px;
+
+}
+
+li.li-games{
+
+	font-family:"fonte1",sans-serif;
+	font-size:20px;
+	padding:5px 0px 5px 0px;
+
+}
+
+a.a-games{
+	text-decoration: none;
+	color:rgba(0,0,0,.7);
+	transition:color .5s;
+}
+
+a.a-games:hover{
+	color:rgba(0,0,0,.3);
+}
+
+#ul-games{
+
+	list-style: disc;
+	margin-left:0px;
+	margin-top:0px;
+
+}
+
+footer{
+
+	width:100%;
+	height:40px;
+	background-color:#ddd;
+	border:1px solid rgba(0,0,0,.2);
+	margin:50px auto 0px auto;
+}
+
+.table{display:table;width:100%;height:100%;}
+.table-cell{display: table-cell;vertical-align: middle;}
+
+p#texto-footer{
+
+	text-align: center;
+	font-family: "Raleway", sans-serif;	
+	color:rgba(0,0,0,.8);
+	font-size:15px;
+}
